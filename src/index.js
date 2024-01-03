@@ -13,6 +13,7 @@ function atualizaCaracter(){
 }     
 
 textarea.addEventListener('input',atualizaCaracter);//está pegando o input...
+
 botao.addEventListener('click',() => {
   textarea.value='';
   atualizaCaracter();

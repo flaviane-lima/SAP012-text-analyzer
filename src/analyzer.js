@@ -41,9 +41,10 @@ const analyzer = {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     
     const numeros = text.match(/\b\d+(\.\d+)?\b/g);
+    let result = 0;
 
     if (numeros) {
-      let result = 0;
+      
       for (let i = 0; i < numeros.length; i++){
      
       
@@ -58,6 +59,7 @@ const analyzer = {
       return 0;
     }
     //console.log(result)
+    
     
   },
 };
